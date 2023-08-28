@@ -149,8 +149,10 @@ class UserView extends Users {
                     <img src="/Explorer/perfil_linkedin.png" alt="" srcset="">
                     <a href="" target="_blank">
                         <p>Matheus</p>
+                        <br>
+                        <span>Matheus Botelho</span>
                     </a>
-                    <span>Matheus Botelho</span>
+                    
                 </td>
                 <td class="repositories">70</td>
                 <td class="followers">9582</td>
