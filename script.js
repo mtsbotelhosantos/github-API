@@ -122,7 +122,7 @@ class UserView extends Users {
                 row.querySelector('.user a').href = `https://github.com/${user.login}`
                 row.querySelector('.user p').textContent = user.name
                 row.querySelector('.user span').textContent = user.login
-                row.querySelector('.repositories').textContent = user.repos
+                row.querySelector('.repositories').textContent = user.public_repos
                 row.querySelector('.followers').textContent = user.followers
 
                 
