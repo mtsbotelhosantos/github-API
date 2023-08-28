@@ -64,7 +64,7 @@ class Users{
         
         }
             catch(error){
-            alert("Usuário já salvo! - User already saved!")
+            alert("Usuário já salvo ou não existe! - User already saved or not exist!")
         
 
     }
