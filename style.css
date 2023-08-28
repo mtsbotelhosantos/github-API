@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --ff-primary: 'Poppins', sans-serif;
+    --primary-color: rgb(60,179,113);
+    --text-color: rgb(105,105,105)
+    
+}
+body{
+    font-size: 1.6rem;
+    background-color: black;
+    color: var(--text-color)
+}
+body * {
+    font-family: var(--ff-primary);
+}
+button{
+    background-color: var(--primary-color);
+    
+
+}
+.button:hover{
+    cursor: pointer;
+}
+
+
+#aplication{
+    max-width: 500px;
+    margin: auto;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.5rem 0;
+}
+header h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 3.2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: .4rem 0 0 .4rem;
+    padding: 0 .8rem;
+    color: var(--primary-color);
+}
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.search button{
+    border-radius: 0 .4rem .4rem 0;
+    height: 3.2rem;
+    border: none;
+    padding: 1rem;
+    color: white;
+}
+.search button:hover{
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.3);
+}
+table *{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+td img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+table th{
+    background-color: var(--primary-color);
+    text-align: left;
+    
+    padding: 1.5rem;
+    color: rgb(255, 255, 255);
+
+}
+table th:first-child {
+    border-top-left-radius: 2rem;
+}
+table th:last-child {
+    border-top-right-radius: 2rem;
+}
+
+table tr:nth-child(odd){
+    background: #ddd;
+}
+table tr:nth-child(even){
+    background: #eee;
+}
+table td{
+    padding: 1.5rem;
+    text-align: left;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+    
+}
+.svg{
+    background-color: var(--primary-color);
+    width: 5rem;
+    border-radius: 30%;
+    padding: .3rem;
+    
+}
+.remove{
+    background: none;
+    border: none;
+    color: rgb(173, 3, 3);
+    font-size: 2.5rem;
+}
+.remove:hover{
+    cursor: pointer;
+}
